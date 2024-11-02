@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
 
     public int maxDepth(TreeNode root) {
 

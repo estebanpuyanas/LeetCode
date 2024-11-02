@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
 
         //Base case null/empty tree.

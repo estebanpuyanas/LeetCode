@@ -17,7 +17,7 @@
  * Explanation: In this case, no transactions are done and the max profit = 0.
  */
 
-public class Solution {
+class Solution {
   public int maxProfit(int[] prices) {
     /**
      * Initialize these two variables. First the minValue to the highest integer possible, as it will get adjusted in the sliding window loop.
