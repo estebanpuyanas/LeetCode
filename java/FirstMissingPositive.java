@@ -1,20 +1,14 @@
-// you can also use imports, for example:
-// import java.util.*;
-
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
-
 import java.util.HashSet;
 
 class Solution {
-  public int solution(int[] A) {
+  public int firstMissingPositive(int[] nums) {
     int result = 1;
     HashSet<Integer> set = new HashSet<>();
 
     //All integers that are greater than 0, add to the hashset
-    for (int i = 0; i < A.length; i++) {
-      if (A[i] > 0) {
-        set.add(A[i]);
+    for (int i = 0; i < nums.length; i++) {
+      if (nums[i] > 0) {
+        set.add(nums[i]);
       }
     }
 

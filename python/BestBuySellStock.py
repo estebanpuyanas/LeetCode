@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
 
-    def solution(self, prices: List[int]) -> int:
+    def get_max_profit(self, prices: List[int]) -> int:
         maxProfit = 0
         minPrice = prices[0]
 
