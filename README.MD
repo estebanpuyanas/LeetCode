@@ -19,4 +19,8 @@ Problem List:
 10. LeetCode #1 - Two Sum (Java, Python)
 11. LeetCode #242 - Valid Anagram (Java, Python)
 12. LeetCode #125 - Valid Palindrome (Java, Python)
-13. LeetCode #20 - Valid Parentheses
+13. LeetCode #20 - Valid Parentheses (Java, Python)
+14. LeetCode #1768 - Merge Strings Alternatively (Python)
+15. LeetCode #110 - Balanced Binary Tree (Java)
+16. LeetCode #100 - Same Tree (Java)
+17. LeetCode #572 - Subtree of Another Tree (Java) 
