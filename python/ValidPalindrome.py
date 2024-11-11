@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
+    def is_palidrome(self, s: str) -> bool:
 
         string_length = len(s)
         L = 0

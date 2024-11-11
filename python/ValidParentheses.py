@@ -1,6 +1,6 @@
 class Solution:
 
-    def isValid(self, s: str) -> bool:
+    def is_valid_parenthesis(self, s: str) -> bool:
 
         resultStack = []
 

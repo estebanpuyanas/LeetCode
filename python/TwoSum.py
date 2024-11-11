@@ -2,7 +2,7 @@ from _ast import List
 from typing import List
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def two_sum(self, nums: List[int], target: int) -> List[int]:
 
         # create empty dictionary to store the values. 
         dictionary = {}

@@ -1,7 +1,7 @@
 from _ast import List
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def contains_duplicate(self, nums: List[int]) -> bool:
         nums.sort()
         for i in range(len(nums) - 1):
             if nums[i] == nums[i + 1]:

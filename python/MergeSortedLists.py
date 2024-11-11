@@ -8,7 +8,7 @@ class ListNode:
 
 
 class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+    def merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
 
         # Creates two new nodes currentNode and dummyNode, both which have a default value and next of 0 and None,
         # respectively.
