@@ -2,6 +2,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
+
+  /**
+   * Function that will return the indices in an array that sum to a target number.
+   * @param nums the list of numbers.
+   * @param target the target sum.
+   * @return an array containing the index number of the values that add up to target.
+   */
   public int[] twoSum(int[] nums, int target) {
 
     // Use hashmap for scalability. Hashmaps have constant time look up so better than doing nested loops.
@@ -23,6 +30,6 @@ class Solution {
       numsMap.put(nums[i], i);
     }
 
-    throw new IllegalArgumentException();
+    throw new IllegalArgumentException("No valid solution was found");
   }
 }

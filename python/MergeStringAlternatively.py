@@ -1,4 +1,6 @@
 class Solution:
+
+    # Function to merge strings alternatively
     def mergeAlternately(self, word1: str, word2: str) -> str:
         
         result = []

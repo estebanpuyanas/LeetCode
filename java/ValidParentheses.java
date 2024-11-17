@@ -23,6 +23,12 @@ import java.util.Stack;
  * Output: false
  */
 class Solution {
+
+  /**
+   * Determines whether a string of parentheses is valid.
+   * @param s the given parentheses.
+   * @return true if valid, false otherwise.
+   */
   public boolean isValid(String s) {
     /**
      * Stacks work like towers of pancakes: the last thing you put on, is the first thing that

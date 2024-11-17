@@ -1,4 +1,10 @@
 class Solution {
+
+  /**
+   * Returns whether a string is a palindrome.
+   * @param s the given string.
+   * @return true if the string is a palindrome, false otherwise.
+   */
   public boolean isPalindrome(String s) {
 
     /**

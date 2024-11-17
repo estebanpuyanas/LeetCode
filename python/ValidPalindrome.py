@@ -1,4 +1,6 @@
 class Solution:
+
+    # Returns whether a string is a palindrome.
     def is_palidrome(self, s: str) -> bool:
 
         string_length = len(s)

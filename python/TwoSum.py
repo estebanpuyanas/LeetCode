@@ -2,6 +2,8 @@ from _ast import List
 from typing import List
 
 class Solution:
+
+    # Function that will return the indices in an array that sum to a target number.
     def two_sum(self, nums: List[int], target: int) -> List[int]:
 
         # create empty dictionary to store the values. 

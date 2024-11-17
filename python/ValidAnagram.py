@@ -1,4 +1,6 @@
 class Solution:
+
+    # Function that checks whether any two strings are anagrams.
     def is_anagram(self, s: str, t: str) -> bool:
 
         if len(s) != len(t):

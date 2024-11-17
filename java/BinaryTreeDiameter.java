@@ -1,4 +1,10 @@
 class Solution {
+
+    /**
+     * Function that evaluates the diameter of a binary tree.
+     * @param root the starting node of the tree.
+     * @return the diamater of the tree.
+     */
     public int diameterOfBinaryTree(TreeNode root) {
 
         //Base case null/empty tree.

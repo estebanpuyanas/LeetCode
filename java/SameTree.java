@@ -1,4 +1,11 @@
 class Solution {
+
+    /**
+     * Function that evaluates whether two binary trees are the same.
+     * @param p the first tree.
+     * @param q the second tree.
+     * @return True if the trees are the same, false otherwise.
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
         //If both root nodes are null, then the tree is the same.

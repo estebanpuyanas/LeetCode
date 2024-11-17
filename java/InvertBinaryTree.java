@@ -1,5 +1,10 @@
 class Solution {
 
+    /**
+     * Function to invert a binary tree.
+     * @param root the starting node.
+     * @return the inverted binary tree, pointing to the root node.
+     */
     public TreeNode invertTree(TreeNode root) {
 
         // Base case, null tree.
@@ -15,7 +20,7 @@ class Solution {
         root.right = root.left;
         root.left = tempNode;
 
-        // Call function recursively on the roots of the tree.
+        // Call function recursively on the left/right subroots of the tree.
         invertTree(root.left);
         invertTree(root.right);
 

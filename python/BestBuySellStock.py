@@ -2,10 +2,10 @@ from typing import List
 
 class Solution:
 
+    # Function that evaluates the maxprofit that can be obtained from buying and selling a stock.
     def get_max_profit(self, prices: List[int]) -> int:
         maxProfit = 0
         minPrice = prices[0]
-
 
         for x in prices:
             # MaxProfit is initially 0, use the max() function to determine

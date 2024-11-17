@@ -1,15 +1,10 @@
 from typing import Optional
 
-
-# Definition for singly - linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-        self.next = next
-
+from python.ListNode import ListNode
 
 class Solution:
+
+    # Function that reverses a linked list.
     def reverse_list(self, head: Optional[ListNode]) -> Optional[ListNode]:
         previousNode = None
         currentNode = head

@@ -1,14 +1,11 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
+
+  /**
+   * Function that merges two sorted linked-lists.
+   * @param list1 the first sorted list.
+   * @param list2 the second sorted list.
+   * @return the merged sorted list.
+   */
   public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     /**
      * Steps:

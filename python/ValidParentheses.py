@@ -1,5 +1,6 @@
 class Solution:
 
+    # Determines whether a string of parentheses is valid.
     def is_valid_parenthesis(self, s: str) -> bool:
 
         resultStack = []
