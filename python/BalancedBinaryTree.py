@@ -3,8 +3,11 @@ from typing import Optional
 from python.TreeNode import TreeNode
 
 class Solution:
+
+    # Since the balabnce of the tree checks that at any given node, the height difference is not > 1, use height helper method to check.
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         
+        # Base case, null root.
         if root is None:
             return True
         
@@ -16,6 +19,7 @@ class Solution:
         else: return self.isBalanced(root.left) and self.isBalanced(root.right)
 
 
+    # Basic helper method to get the height of the tree. 
     def height(self, node: Optional[TreeNode]) -> int:
         
         if node is None:
